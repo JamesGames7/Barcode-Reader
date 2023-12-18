@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block head %}
+<li><a href="{{ url_for('home') }}">Home</a></li>
+<li class="active"><a href="{{ url_for('read') }}">Read</a></li>
+{% endblock %}
+
+{% block content %}
+<h1>Scanner</h1>
+{% endblock %}
