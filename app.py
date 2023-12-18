@@ -8,3 +8,7 @@ def home():
 @app.route('/read/')
 def read():
     return render_template('read.html')
+
+@app.route('/read/<review_id>/')
+def read(review_id):
+    return render_template('review.html')
