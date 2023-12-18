@@ -33,6 +33,6 @@ nav li a:hover {
 }
 
 .active {
-  background-color: #73f2f7 !important;
+  background-color: lightblue !important;
   color: black;
 }
